@@ -1,0 +1,24 @@
+
+h1{
+    text-align: center;
+}
+.container{
+     max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px black;
+
+}
+
+.card-container{
+    display: flex;
+   justify-content: space-between;
+    gap: 20px;
+}
+
+.card{
+    border: 1px solid black;
+    flex: 1;
+}
